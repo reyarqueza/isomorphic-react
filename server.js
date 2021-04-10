@@ -28,7 +28,7 @@ function home (req, res) {
             <Nav
               list={[
                 {label: 'Home', url: '/'},
-                {label: 'Producs', url: '/'},
+                {label: 'Products', url: '/'},
                 {label: 'Services', url: '/'},
                 {label: 'Blog', url: '/'},
                 {label: 'Forum', url: ''}
@@ -42,7 +42,7 @@ function home (req, res) {
               text="Welcome To The City!"
             >
               <p>
-                Lorem Ipsum is simply dummy text of the printing
+                Lorem Ipsum is simply sample text of the printing
                 and typesetting industry.
               </p>
             </Hero>
@@ -57,12 +57,10 @@ function home (req, res) {
               <Card
                 src="/images/daniel-brubaker-uhYYa9nlr6w-unsplash.jpg"
                 alt="Photo of a city."
-                text="It has survived not only five centuries, but also the
-                  leap into electronic typesetting, remaining essentially
-                  unchanged. It was popularised in the 1960s with the release
+                text="It was popularised in the 1960s with the release
                   of Letraset sheets containing Lorem Ipsum passages, and more
                   recently with desktop publishing software like Aldus
-                  PageMaker including versions of Lorem Ipsum."
+                  PageMaker."
               />
               <Card
                 src="/images/adrian-balasoiu-bdGiODpWLBk-unsplash.jpg"

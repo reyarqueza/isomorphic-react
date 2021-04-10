@@ -5,10 +5,11 @@
 
     li {
       font-size: 14px;
+      list-style-type: none;
+
       @media only screen and (min-width: 768px) {
         font-size: 2vw;
       }
-      list-style-type: none;
     }
   }
 }

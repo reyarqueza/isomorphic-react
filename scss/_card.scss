@@ -1,6 +1,26 @@
 .rs-card {
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  // border-bottom-left-radius: 25px;
+  // border-bottom-right-radius: 25px;
+
   img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: block;
     object-fit: cover;
     width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    padding: 2vw;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 1.5vw;
+      line-height: 2.2vw;
+    }
   }
 }

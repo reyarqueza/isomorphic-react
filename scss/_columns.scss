@@ -1,0 +1,9 @@
+.rs-columns {
+  padding: 2vw;
+
+  display: grid;
+  column-gap: 2vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  // grid-auto-rows: 1fr;
+}

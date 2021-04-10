@@ -1,0 +1,19 @@
+@use '__mixins' as mixins;
+
+footer {
+  @include mixins.nav();
+  background: #111;
+  padding: 0.8vw;
+
+  a {
+    color: #fff;
+
+    &:visited {
+      color: #fff;
+    }
+
+    @media only screen and (min-width: 768px) {
+      font-size: 1.5vw;
+    }
+  }
+}

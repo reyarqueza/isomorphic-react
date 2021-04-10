@@ -1,0 +1,14 @@
+.rs-top-nav {
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+      font-size: 14px;
+      @media only screen and (min-width: 768px) {
+        font-size: 2vw;
+      }
+      list-style-type: none;
+    }
+  }
+}

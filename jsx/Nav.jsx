@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function(props) {
   return (
-    <nav>
+    <nav className="rs-top-nav">
       <ul>
         {props.list.map((item, index) =>
           <li key={index}>

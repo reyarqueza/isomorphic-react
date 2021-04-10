@@ -3,6 +3,7 @@ export default function(content) {
 <html>
   <head>
     <title></title>
+    <link rel="stylesheet" href="/css/styles.min.css" />
   </head>
   <body>
     <main>${content}</main>

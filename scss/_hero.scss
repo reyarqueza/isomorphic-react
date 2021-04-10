@@ -1,0 +1,31 @@
+.rs-hero {
+  position: relative;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  h1,
+  p {
+    color: #fff;
+    position: absolute;
+    text-shadow: 0 0 1vw #000, 0 0 1vw #000;
+  }
+
+  h1 {
+    left: 12.5vw;
+    padding-right: 12.5vw;
+    bottom: 25vw;
+    font-weight: bold;
+    font-size: 7.5vw;
+  }
+
+  p {
+    left: 12.5vw;
+    padding-right:12.5vw;
+    bottom: 6.25vw;
+    font-weight: bold;
+    font-size: 4.5vw;
+  }
+}

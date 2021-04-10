@@ -39,7 +39,7 @@ function home (req, res) {
             <Hero
               src="/images/robert-bye-XLK1tJqvIt4-unsplash.jpg"
               alt="Hero image of a crowded New York city."
-              text="Welcome To The Jungle!"
+              text="Welcome To The City!"
             >
               <p>
                 Lorem Ipsum is simply dummy text of the printing

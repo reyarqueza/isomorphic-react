@@ -7,6 +7,7 @@ export default function(content) {
   </head>
   <body>
     <main>${content}</main>
+    <script src="/js/bundle.js"></script>
   </body>
 </html>`
 }

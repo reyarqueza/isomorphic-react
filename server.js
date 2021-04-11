@@ -11,7 +11,7 @@ const app = express()
 const port = 3333
 
 // pages
-function home (req, res) {
+function home(req, res) {
   res.send(
     wrapper(
       ReactDOMServer.renderToString(
@@ -21,11 +21,18 @@ function home (req, res) {
   )
 }
 
+function api(req, res) {
+  res.send(props)
+}
+
 // static files
 app.use(express.static('public'))
 
-// dynamic SSR
+// SSR
 app.get('/', home)
+
+// API
+app.get('/api', api)
 
 app.listen(port, () => {
   console.log(`Open your browser at http://localhost:${port}`)

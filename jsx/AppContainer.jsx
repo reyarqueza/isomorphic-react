@@ -1,20 +1,24 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import { fetchData } from '../actions'
 import App from './App.jsx'
 
-class AppContainer extends Component {
+class AppContainer extends PureComponent {
   render() {
-    if (!this.props.nav) {
-      return null
-    }
-
     return <App {...this.props} />
   }
 
   componentDidMount() {
     this.props.fetchData()
   }
+
+  // shouldComponentUpdate(nextProps) {
+  //   console.log('nextProps', prevProps)
+  //   console.log('this.props', this.props)
+  //   return nextProps.nav === this.props.nav
+  //     ? false
+  //     : true
+  // }
 }
 
 function mapStateToProps(state) {

@@ -1,26 +1,25 @@
 {
-  "name": "react-ssr",
+  "name": "isomorphic-react",
   "version": "1.0.0",
   "description": "Basic React SSR setup with Express",
   "main": "index.js",
   "scripts": {
-    "start": "npm run server-side-react & npm run sass-watch & npm run build",
-    "start-dev": "npm run server-side-react & npm run sass-watch & npm run client-side-react-dev",
+    "start": "npm run server-side-react",
+    "client-side-react-dev": "npx webpack --watch --config webpack.config.dev.js --mode development",
     "server-side-react": "nodemon server.js --exec babel-node --presets @babel/env,@babel/react",
     "sass-watch": "sass --style=compressed --watch ./scss/index.scss ./public/css/styles.min.css",
-    "client-side-react-dev": "npx webpack --watch --config webpack.config.dev.js --mode development",
     "build": "npx webpack --watch --config webpack.config.prod.js --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reyarqueza/react-ssr.git"
+    "url": "git+https://github.com/reyarqueza/isomorphic-react.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Rey Arqueza",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reyarqueza/react-ssr/issues"
+    "url": "https://github.com/reyarqueza/isomorphic-react/issues"
   },
-  "homepage": "https://github.com/reyarqueza/react-ssr#readme",
+  "homepage": "https://github.com/reyarqueza/isomorphic-react#readme",
   "dependencies": {
     "@babel/core": "^7.13.14",
     "@babel/node": "^7.13.13",

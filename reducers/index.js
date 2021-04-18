@@ -1,7 +1,8 @@
 
 import { API } from '../actions'
+import json from '../public/json/api.json'
 
-export default function api(state = {}, action) {
+export default function api(state = {...json}, action) {
   const json = action.json
 
   switch (action.type) {

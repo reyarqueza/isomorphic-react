@@ -1,28 +1,41 @@
 import express from 'express'
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
+
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+import reducer from './reducers';
+
 import App from './jsx/App.jsx'
 import props from './public/json/api.json'
 
-// server side
 import wrapper from './wrapper'
 
 const app = express()
 const port = 3333
+const store = createStore(reducer)
+// Grab the initial state from our Redux store
+const preloadedState = store.getState()
 
 // pages
 function home(req, res) {
   res.send(
     wrapper(
       ReactDOMServer.renderToString(
-        <App {...props} />
-      )
+        <Provider store={store}>
+          <App {...props} />
+        </Provider>
+      ),
+      preloadedState
     )
   )
 }
 
 function api(req, res) {
-  res.send(props)
+  // simulate 2 seccond lag
+  setTimeout(() => {
+    res.send(props)
+  }, 2000)
 }
 
 // static files

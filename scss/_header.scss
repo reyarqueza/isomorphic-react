@@ -6,7 +6,10 @@ header {
   width: 100%;
   z-index: 1;
 
-  a:visited {
+  a {
     color: #fff;
+  }
+  a:visited {
+    color: #efefef;
   }
 }

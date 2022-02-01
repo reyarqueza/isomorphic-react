@@ -1,5 +1,8 @@
+import prettier from "prettier";
+
 export default function (content, preloadedState) {
-  return `<!doctype html>
+  return prettier.format(
+    `<!doctype html>
 <html lang="en">
   <head>
     <title>Isomorphic Example Page</title>
@@ -21,5 +24,9 @@ export default function (content, preloadedState) {
   <body>
     <main>${content}</main>
   </body>
-</html>`;
+</html>`,
+    {
+      parser: "html",
+    }
+  );
 }

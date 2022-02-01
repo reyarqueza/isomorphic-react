@@ -4,6 +4,8 @@ export default function (content, preloadedState) {
   <head>
     <title>Isomorphic Example Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Isomorphic example page with React SSR and JavaScript" />
+    <meta name="keywords" content="isomorphic web page, react, server side render" />
     <link rel="icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/css/styles.min.css" />
     <script defer>

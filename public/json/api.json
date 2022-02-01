@@ -18,7 +18,7 @@
     },
     {
       "label": "Forum",
-      "url": ""
+      "url": "/"
     }
   ],
   "comment": "generated srcSet at https://www.responsivebreakpoints.com/",
@@ -92,7 +92,7 @@
     },
     {
       "label": "Contact Us",
-      "url": ""
+      "url": "/"
     }
   ]
 }

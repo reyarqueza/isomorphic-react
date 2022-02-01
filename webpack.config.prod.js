@@ -4,7 +4,7 @@ const config = {
   mode: 'production',
   output: {
     filename: './js/bundle.js',
-    path: __dirname + '/public'
+    path: __dirname + '/public',
   },
   module: {
     rules: [
@@ -13,11 +13,11 @@ const config = {
         loader: 'babel-loader',
         exclude: /node_modules/,
         options: {
-          presets: ['@babel/env', '@babel/react']
-        }
-      }
-    ]
-  }
-}
+          presets: ['@babel/env', '@babel/react'],
+        },
+      },
+    ],
+  },
+};
 
-module.exports = config
+module.exports = config;

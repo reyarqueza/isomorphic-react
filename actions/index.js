@@ -1,10 +1,10 @@
-export const API = 'API'
+export const API = 'API';
 
 function api(json) {
   return {
-      type: API,
-      json
-  }
+    type: API,
+    json,
+  };
 }
 
 export function fetchData() {
@@ -13,7 +13,7 @@ export function fetchData() {
       .then(response => response)
       .then(response => response.json())
       .then(json => {
-          dispatch(api(json))
-      })
-  }
+        dispatch(api(json));
+      });
+  };
 }

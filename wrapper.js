@@ -1,4 +1,4 @@
-import prettier from "prettier";
+import prettier from 'prettier';
 
 export default function (content, preloadedState) {
   return prettier.format(
@@ -14,10 +14,7 @@ export default function (content, preloadedState) {
     <script defer>
     // WARNING: See the following for security issues around embedding JSON in HTML:
     // https://redux.js.org/recipes/server-rendering/#security-considerations
-    window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(
-      /</g,
-      "\\u003c"
-    )}
+    window.__PRELOADED_STATE__ = ${JSON.stringify(preloadedState).replace(/</g, '\\u003c')}
     </script>
     <script defer src="/js/bundle.js"></script>
   </head>
@@ -26,7 +23,7 @@ export default function (content, preloadedState) {
   </body>
 </html>`,
     {
-      parser: "html",
+      parser: 'html',
     }
   );
 }

@@ -23,8 +23,8 @@
   ],
   "comment": "generated srcSet at https://www.responsivebreakpoints.com/",
   "hero": {
-    "sizes": "(max-width: 1400px) 100vw, 1400px",
-    "src": "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1400.webp",
+    "sizes": "(max-width: 1023px) 100vw, 1023px",
+    "src": "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1023.webp",
     "srcSet": [
       "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_200.webp 200w,",
       "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_350.webp 350w,",
@@ -35,14 +35,7 @@
       "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_806.webp 806w,",
       "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_878.webp 878w,",
       "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_950.webp 950w,",
-      "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1023.webp 1023w,",
-      "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1086.webp 1086w,",
-      "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1145.webp 1145w,",
-      "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1208.webp 1208w,",
-      "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1297.webp 1297w,",
-      "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1348.webp 1348w,",
-      "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1384.webp 1384w,",
-      "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1400.webp 1400w"
+      "/images/robert-bye-XLK1tJqvIt4-unsplash_zvtdmb_c_scale,w_1023.webp 1023w,"
     ],
     "alt": "Hero image of a crowded New York city.",
     "text": "Welcome To The City!",

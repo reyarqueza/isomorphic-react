@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-export default function(props) {
+export default function (props) {
   return (
     <div className="rs-card">
       <img
@@ -8,8 +8,10 @@ export default function(props) {
         srcSet={props.srcSet}
         src={props.src}
         alt={props.alt}
+        width={377}
+        height={271}
       />
       <p>{props.text}</p>
     </div>
-  )
+  );
 }

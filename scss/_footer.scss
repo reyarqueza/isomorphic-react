@@ -1,4 +1,4 @@
-@use '__mixins' as mixins;
+@use "__mixins" as mixins;
 
 footer {
   @include mixins.nav();
@@ -12,8 +12,13 @@ footer {
       color: #fff;
     }
 
-    @media only screen and (min-width: 768px) {
-      font-size: 1.5vw;
-    }
+    // @media only screen and (min-width: 768px) {
+    //   font-size: 1.5vw;
+    // }
+  }
+
+  ul {
+    margin: auto;
+    max-width: 1280px;
   }
 }

@@ -1,5 +1,7 @@
-@use '__mixins' as mixins;
+@use "__mixins" as mixins;
 
 .rs-top-nav {
   @include mixins.nav();
+  margin: auto;
+  max-width: 1280px;
 }

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-export default function(props) {
+export default function (props) {
   return (
     <div className="rs-hero">
       <img
@@ -8,9 +8,11 @@ export default function(props) {
         srcSet={props.srcSet}
         src={props.src}
         alt={props.alt}
+        width={1280}
+        height={853}
       />
       <h1>{props.text}</h1>
       {props.children}
     </div>
-  )
+  );
 }

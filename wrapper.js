@@ -10,7 +10,7 @@ export default function (content, preloadedState) {
     <meta name="description" content="Isomorphic example page with React SSR and JavaScript" />
     <meta name="keywords" content="isomorphic web page, react, server side render" />
     <link rel="icon" href="/images/favicon.ico" />
-    <link rel="stylesheet" href="/css/styles.min.css" />
+    <link rel="stylesheet" media="screen" href="/css/styles.min.css" />
     <script defer>
     // WARNING: See the following for security issues around embedding JSON in HTML:
     // https://redux.js.org/recipes/server-rendering/#security-considerations
